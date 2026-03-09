@@ -54,7 +54,7 @@ ${skillsToLearn.map((s: string, i: number) => `${i + 1}. ${s}`).join("\n")}
 
 Create a structured, phased roadmap with specific course recommendations and projects.`;
 
-    const response = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
+    const response = await fetch("https://ai.gateway.devx.ai/v1/chat/completions", {
       method: "POST",
       headers: {
         Authorization: `Bearer ${AI_API_KEY}`,
