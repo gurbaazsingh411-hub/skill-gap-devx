@@ -10,7 +10,7 @@
     ],
     "module": "ESNext",
     "moduleDetection": "force",
-    "moduleResolution": "Node",
+    "moduleResolution": "bundler",
     "noEmit": true,
     "noFallthroughCasesInSwitch": false,
     "noImplicitAny": false,
@@ -35,6 +35,8 @@
     "src"
   ],
   "exclude": [
-    "supabase"
+    "node_modules",
+    "supabase",
+    "supabase/**/*"
   ]
 }
